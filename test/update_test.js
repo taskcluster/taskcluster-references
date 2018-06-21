@@ -64,6 +64,7 @@ suite('updating', function() {
       'taskcluster:/schemas/common/action-schema-v2.json#',
       'taskcluster:/schemas/common/api-reference-v1.json#',
       'taskcluster:/schemas/common/exchanges-reference-v1.json#',
+      'taskcluster:/schemas/common/manifest-v2.json#',
     ]);
   });
 });
