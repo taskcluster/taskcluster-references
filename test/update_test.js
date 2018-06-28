@@ -61,9 +61,8 @@ suite('updating', function() {
     const ids = schemas.map(sch => sch.$id).sort();
     assert.deepEqual(ids, [
       'taskcluster:/schemas/common/action-schema-v1.json#',
-      'taskcluster:/schemas/common/action-schema-v2.json#',
-      'taskcluster:/schemas/common/api-reference-v1.json#',
-      'taskcluster:/schemas/common/exchanges-reference-v1.json#',
+      'taskcluster:/schemas/common/api-reference-v0.json#',
+      'taskcluster:/schemas/common/exchanges-reference-v0.json#',
       'taskcluster:/schemas/common/manifest-v2.json#',
     ]);
   });
